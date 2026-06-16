@@ -16,15 +16,7 @@ const { Authflow, Titles } = require("prismarine-auth");
         privacy: "open",
         restrictInvitesToLeader: false,
         autoConnectRPC: true,
-        waitForInvite: true,
-        /*
-            joinManually: true,
-            inviteTimeout: 60000,
-            flow: "sisu",
-            authTitle: Titles.MinecraftNintendoSwitch,
-            deviceType: "Nintendo",
-            deviceVersion: "0.0.0"
-        */
+        waitForInvite: true
     });
 
     try {
